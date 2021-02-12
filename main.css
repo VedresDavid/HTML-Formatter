@@ -1,0 +1,40 @@
+body {
+    font-family: Courier, monospace;
+}
+textarea {
+    width: 49%;
+    height: 600px;
+    resize: none;
+}
+
+div#target {
+    width: 49%;
+    height: 595px;
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: pre-wrap;
+    overflow-x: scroll;
+    font-size: 14px;
+}
+
+.tag {
+    color: green;
+}
+
+.attribute {
+    color: blue;
+}
+
+.value {
+    color: red;
+}
+
+.text {
+    color: black;
+}
+
+.highlight {
+    background-color: #ccc;
+}
